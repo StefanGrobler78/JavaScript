@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon">
     <title>Sidebar</title>
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -16,6 +19,60 @@
   </head>
   <body>
     <h1>sidebar project</h1>
+    <button class="sidebar-toggle">
+        <ion-icon name="grid-outline"></ion-icon>
+    </button>
+    <aside class="sidebar">
+      <header class="sidebar-header">
+        <img class="logo" src="./media/sfg_300_logo.jpg" alt="logo">
+        <button class="close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </header>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
     <!-- javascript -->
     <script src="./js/index.js"></script>
   </body>
